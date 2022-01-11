@@ -1,0 +1,24 @@
+# This is a basic workflow to help you get started with Actions
+
+name: RSS
+
+# Controls when the action will run. 
+on: 
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+  schedule:
+    - cron: '0 */1 * * *'
+        
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: rzkmak/rui@v1
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
