@@ -6,4 +6,4 @@
 - url: "https://bitcoin.stackexchange.com/feeds"
   title: "Bitcoinstackexchange"
   custom_message: "New questions:"
-  chat_id: "@Bitcoinstackexchange"
+  chat_id: "Bitcoinstackexchange"
