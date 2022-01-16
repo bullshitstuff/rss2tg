@@ -2,3 +2,8 @@
   title: "simorgh"
   custom_message: "بحث جدید در فوروم سیمرغ ایجاد شد:"
   chat_id: "-1001627598297"
+
+- url: "https://bitcoin.stackexchange.com/feeds"
+  title: "Bitcoinstackexchange"
+  custom_message: "New questions:"
+  chat_id: "@Bitcoinstackexchange"
