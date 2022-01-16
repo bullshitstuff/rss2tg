@@ -10,7 +10,7 @@ on:
         description: 'Log level'     
         required: true
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '*/5 * * * *'
         
 jobs:
   build:
